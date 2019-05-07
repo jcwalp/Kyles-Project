@@ -1,0 +1,31 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>New Page 1</title>
+</head>
+
+<body>
+<script language="JavaScript" type="text/javascript"> 
+<!-- // JavaScript to interpolate random images into a page. 
+var ic = 3; // Number of alternative images 
+var xoxo = new Array(ic); // Array to hold filenames 
+xoxo[0] = "AD1.gif"; 
+xoxo[1] = "AD2.gif"; 
+xoxo[2] = "AD3.gif"; 
+function pickRandom(range) 
+{ if (Math.random) return Math.round(Math.random() * (range-1)); 
+else { var now 
+= new Date(); return (now.getTime() / 1000) % range; } } 
+// Write out an IMG tag,using a randomly-chosen image name. 
+var choice = pickRandom(ic); 
+// --> 
+</script>
+<center><SCRIPT LANGUAGE="JavaScript">document.writeln('<TD'+'> <IMG SRC="'+xoxo[choice]+'" HEIGHT=90 WIDTH=728 BORDER=0 ><'+'/TD>');
+</SCRIPT>
+
+<p align="left">&nbsp;</p>
+
+</body>
+
+</html>
